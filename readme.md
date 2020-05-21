@@ -7,9 +7,8 @@ Given the instructions above, describe all of the little steps you would have to
 
 
 1. The app should allow someone to enter a name.
-    input -> type in name (string) - html
-    
-    hit enter or click button to end their name
+    - input -> type in name (string) - html
+    - hit enter or click button to end their name
         - button on the page
         - listen for click event on the button
         - handle the click event
@@ -17,13 +16,13 @@ Given the instructions above, describe all of the little steps you would have to
             - console.log the name
             - use .val() to get the name
     
-    DONE: ccan type it in, hit enter button, show up in console (what they typed)
+    WHAT DOES DONE MEAN?: user can type it in, hit enter button, show up in console (what they typed)
 
-    store name somewhere....do we need it later??
+    Q: store name somewhere....do we need it later?? Great question, not for this project.
 
 2. the name should then appear on the page inside a blue box with that person's given id number.
 
-    append/put on the page
+    - append/put on the page
         - appending many things.... 
         - order doesn't matter, they need to be on the page
         - things must be nested
